@@ -75,6 +75,10 @@ on boot
     # Set thermal mode to evaluation
     chown system system /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 10
+	
+	# Setup permission for Power HAL
+    chown system system /dev/stune/top-app/schedtune.prefer_high_cap
+    chmod 0664 /dev/stune/top-app/schedtune.prefer_high_cap
 
     # Set fingerprint related permissions
     chown system system /sys/bus/platform/devices/soc/soc:fpc1020/irq

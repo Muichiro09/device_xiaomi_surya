@@ -30,6 +30,9 @@ pm.dexopt.bg-dexopt=everything
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# Logtag
+persist.log.tag.OpenGLRenderer=S
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true

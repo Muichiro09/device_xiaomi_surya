@@ -5,5 +5,4 @@ VENDOR_LOG_LEVEL=S
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.log.tag.OpenGLRenderer=$(VENDOR_LOG_LEVEL) \
 persist.log.tag.ContrastColorUtil=$(VENDOR_LOG_LEVEL)

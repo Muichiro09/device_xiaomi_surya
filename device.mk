@@ -265,7 +265,7 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.surya
 
 # Media

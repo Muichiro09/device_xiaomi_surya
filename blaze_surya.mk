@@ -15,10 +15,11 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 #BlazeStuff
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GAPPS := true
+WITH_GAPPS := false
 BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := Muichiro09
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_MIUI_CAMERA := true
 TARGET_ENABLE_BLUR := false
 
 PRODUCT_NAME := blaze_surya
